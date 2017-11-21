@@ -53,6 +53,9 @@ a {
 .about-me p {
     padding-bottom: 2rem;
 }
+.desktop-nav {
+    display: none;
+}
 
 /* Portfolio Styles ---------- */
 
@@ -98,7 +101,7 @@ footer nav {
     justify-content: space-between;
 }
 
-.desktop-nav {
+.desktop-navigation {
     display: none;
 }
 
@@ -167,6 +170,9 @@ footer nav {
     .desktop {
         display: none;
     }
+    .desktop-navigation {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -204,6 +210,9 @@ footer nav {
     .about-me figure {
         margin-right: 0;
         padding-right: 0;
+    }
+    .mobile-nav {
+        display: none;
     }
 
 }
