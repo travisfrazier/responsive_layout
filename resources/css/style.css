@@ -99,4 +99,110 @@ footer nav {
     display: none;
 }
 
+/* Media Queries ---------- */
+
+@media screen and (min-width: 768px) {
+    .main-nav ul {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .main-nav ul li {
+        padding: 0;
+        margin-left: 1rem;
+        margin-bottom: 1.5rem;
+        background-color: #f8f8f8;
+    }
+    .about-me {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding-bottom: 2rem;
+    }
+    .about-me p {
+        max-width: 50%;
+        margin: 0 auto auto auto;
+        text-align: left;
+        
+    }
+    .about-me figure {
+        padding-top: 0;
+        margin: 0;
+    }
+    .about-me img {
+        max-width: 90%;
+        margin: 0;
+    }
+    .container {
+        max-width: 780px;
+    }
+    .portfolio-items {
+        display: flex;
+        margin-bottom: 2.5rem;
+    }
+    figcaption {
+        max-width: 80%;
+        margin: auto;
+    }
+    #work-two {
+        padding: 2rem;
+    }
+    #me {
+        max-width: 60%;
+        margin: auto;
+    }
+    .desktop-nav {
+        display: flex;
+    }
+    .desktop-nav li {
+        margin-left: 1rem;
+        font-size: 0.75rem;
+    }
+    .mobile {
+        visibility: hidden;
+    }
+    .desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .portfolio-items {
+        display: flex;
+    }
+    .container {
+        max-width: 975px;
+    }
+   
+    .desktop {
+        display: flex;
+        background-color: white;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .mobile-tablet {
+        display: none;
+    }
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .container .portfolio {
+        max-width: 1000px;
+        background-color: white;
+    }
+    body {
+        background-color: #f8f8f8;
+    }
+    .about-me p {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .about-me figure {
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+}
+
 
