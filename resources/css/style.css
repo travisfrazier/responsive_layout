@@ -72,6 +72,9 @@ main h3 {
 figcaption {
     padding-bottom: 1rem;
 }
+.desktop {
+    display: none;
+}
 
 
 /* Contact & Footer Styles ---------- */
