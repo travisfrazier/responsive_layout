@@ -158,16 +158,16 @@ footer nav {
         margin: auto;
     }
     .desktop-nav {
-        display: flex;
+        display: none;
     }
     .desktop-nav li {
         margin-left: 1rem;
         font-size: 0.75rem;
     }
-    .mobile {
-        visibility: hidden;
-    }
     .desktop {
+        display: none;
+    }
+    .desktop-nav {
         display: none;
     }
     .desktop-navigation {
@@ -212,6 +212,12 @@ footer nav {
         padding-right: 0;
     }
     .mobile-nav {
+        display: none;
+    }
+    .desktop-nav {
+        display: flex;
+    }
+    .mobile {
         display: none;
     }
 
